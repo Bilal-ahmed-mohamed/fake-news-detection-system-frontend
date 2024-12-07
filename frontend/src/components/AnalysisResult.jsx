@@ -46,10 +46,10 @@ function AnalysisResult({ result }) {
             This news is predicted as <strong>{prediction}</strong>
           </p>
         </div>
-        <p className="confidence-score">
+        {/* <p className="confidence-score">
           Confidence Score: {(confidenceValue * 100).toFixed(2)}%
-        </p>
-        <div>
+        </p> */}
+        {/* <div>
           <h3 className="model-predictions-title">Model Predictions:</h3>
           <ul className="model-predictions-list">
             {Object.entries(formattedIndividualPredictions).map(([model, pred]) => (
@@ -58,7 +58,7 @@ function AnalysisResult({ result }) {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
